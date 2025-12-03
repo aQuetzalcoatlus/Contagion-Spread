@@ -283,7 +283,7 @@ tab_single, tab_multi = st.tabs(["Single simulation", "Compare immunization rate
 with tab_single:
     st.subheader("Single run")
 
-        run_button = st.button("Run / Rerun simulation", type="primary")
+    run_button = st.button("Run / Rerun simulation", type="primary")
 
     # Current parameter set for this tab
     params = {
