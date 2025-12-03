@@ -1,7 +1,7 @@
 # Contagion Agent Simulation
 
 <p align="center">
-  <img src="./resources/Contagion_repo_image_resized.png" width="500"/>
+  <img src="./resources/Contagion_repo_image_README.png" width="300"/>
 </p>
 
 This project is an interactive Streamlit app that demonstrates how an infection can spread through a simple population of moving particles. Each particle behaves like an agent that can be healthy, infected, or immunized. By adjusting parameters such as vaccination rate, breakthrough probability, and infection duration, users can explore how different conditions shape the development of an outbreak. The app builds on the agent simulation task completed as part of the Classical Complex Systems course I completed during the winter semester 2023/24 at the University of Freiburg.
