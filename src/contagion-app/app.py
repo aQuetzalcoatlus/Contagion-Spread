@@ -220,21 +220,34 @@ st.set_page_config(
     layout="wide",
 )
 
+st.image(
+    "./resources/Contagion_repo_image_README.png",
+    # caption="Schwarzwald Forest Change Explorer",
+    width=200,
+)
 st.title("Agent-based Simulation of Contagion Spread")
 st.caption(
     "Particles move in a box, collide elastically, and may infect each other on contact. "
     "Some particles start immunized; infected particles eventually become immunized."
 )
 
+
 with st.expander("What is this app showing?"):
     st.markdown(
         """
-This is a Streamlit version of your agent-based contagion project.  
+In this simulation, we model how an infectious disease spreads through a population, where individuals are represented by moving particles, called "agents".
+
+We start by implementing particles to act as individuals who can be healthy, infected, or immunized against an infection.
+
+These particles are then set in motion within a box with no Periodic Boundary Conditions (PBC), observing how they collide and potentially spread the infection over time.
+
+Lastly, we analyze the outcomes to see how different levels of immunization in the population affect the spread of the disease.
+
 Each dot is an individual:
 
-- **Green** → healthy  
-- **Red** → currently infected  
-- **Blue** → immunized (either from the start or after recovery)  
+- **Green** → healthy
+- **Red** → currently infected
+- **Blue** → immunized (either from the start or after recovery)
 
 The key knobs you can change:
 

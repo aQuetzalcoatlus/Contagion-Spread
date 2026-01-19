@@ -7,8 +7,10 @@ requires-python = ">=3.11"
 dependencies = [
     "altair>=5.5.0",
     "dataclasses-json>=0.6.7",
+    "ipykernel>=7.1.0",
     "matplotlib>=3.10.7",
     "numpy>=2.3.5",
     "pandas>=2.3.3",
     "streamlit>=1.51.0",
+    "tqdm>=4.67.1",
 ]
